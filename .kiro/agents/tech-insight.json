@@ -20,7 +20,9 @@
         "chmod -R 777 /.*",
         "chown -R .* /.*",
         "git push .* --force.*",
-        "git clean -fdx.*"
+        "git clean -fdx.*",
+        "repo forall .* -c .* git clean.*",
+        "repo forall .* -c .* git reset --hard.*"
       ]
     }
   },
@@ -36,6 +38,9 @@
   "mcpServers": {
     "feishu-mcp": {
       "url": "<YOUR_FEISHU_MCP_URL>"
+    },
+    "xiaohongshu-mcp": {
+      "url": "<YOUR_XIAOHONGSHU_MCP_URL>"
     }
   },
   "welcomeMessage": "技术洞察助手就绪。说「今日日报」一键完成全流程：抓取→分析→日报→报纸图片。"

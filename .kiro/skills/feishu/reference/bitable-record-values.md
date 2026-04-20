@@ -290,7 +290,7 @@
 {
   "fields": {
     "负责人": [
-      {"id": "ou_example_user_id"}
+      {"id": "ou_8240099442cf5da49f04f4bf8f8abcef"}
     ],
     "协作人": [
       {"id": "ou_user1"},
@@ -306,7 +306,7 @@
 {
   "负责人": [
     {
-      "id": "ou_example_user_id",
+      "id": "ou_8240099442cf5da49f04f4bf8f8abcef",
       "name": "黄泡泡",
       "en_name": "Amanda Huang",
       "email": "amandahuang@bytedance.com",
@@ -606,7 +606,7 @@
 {
   "创建人": [
     {
-      "id": "ou_example_user_id",
+      "id": "ou_8240099442cf5da49f04f4bf8f8abcef",
       "name": "黄泡泡",
       "en_name": "Amanda Huang",
       "email": "amandahuang@bytedance.com",

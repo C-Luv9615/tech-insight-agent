@@ -119,18 +119,18 @@ description: |
 
 ```bash
 cd ~/.kiro/skills/tech-newspaper/resources
-node screenshot.js /tmp/newspaper_YYYYMMDD.html ./output/newspaper_YYYYMMDD.jpg 960
+node screenshot.js /tmp/newspaper_YYYYMMDD.html ~/tech-insight-agent/newspaper_YYYYMMDD.jpg 960
 ```
 
 回退方案（puppeteer 不可用时）：
 ```bash
-google-chrome --headless --screenshot=./output/newspaper_YYYYMMDD.png \
+google-chrome --headless --screenshot=~/tech-insight-agent/newspaper_YYYYMMDD.png \
   --window-size=960,800 --disable-gpu /tmp/newspaper_YYYYMMDD.html
 ```
 
 ### Step 4: 输出
 
-1. 告知用户图片路径：`./output/newspaper_YYYYMMDD.jpg`
+1. 告知用户图片路径：`~/tech-insight-agent/newspaper_YYYYMMDD.jpg`
 2. 如果用户要求上传飞书，使用飞书工具上传
 3. 显示生成的 HTML 预览路径，方便用户用浏览器打开微调
 

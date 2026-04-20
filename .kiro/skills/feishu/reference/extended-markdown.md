@@ -406,7 +406,7 @@ Bob --> Alice: Hi!
 
 | 块类型 | 标签 | 说明 |
 |--------|------|------|
-| 思维笔记 | `<mindnote token="xxx"/>` | 飞书原生功能，只读，无法通过 CLI 创建或修改。如需在文档中创建思维导图，使用 Mermaid ` ```mindmap ` 代码块（写入后自动转为可编辑画板） |
+| 思维笔记 | `<mindnote token="xxx"/>` | 仅获取占位信息 |
 | 流程图/UML | `<diagram type="1"/>` | type: 1=流程图, 2=UML |
 | 链接预览 | `<link-preview url="消息链接" type="message"/>` | 仅消息链接，只读 |
 | 任务块 | `<task members="ou_xxx" due="2025-01-01">标题</task>` | members 逗号分隔 |
